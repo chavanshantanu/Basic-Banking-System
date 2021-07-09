@@ -1,0 +1,85 @@
+<html>
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        
+        <!-- JS, Popper.js, and jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./sheet1.css">
+
+        <title>Pulse Bank</title>
+
+    </head>
+
+    <body>
+        
+        <nav class="navbar navbar-expand-lg navbar-light" id="header">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./home.html" id="name">PULSE BANK</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                  <a class="nav-link active" id="link" aria-current="page" href="./home.html">HOME</a>
+                  <a class="nav-link active" id="link" href="./customers.php">CUSTOMERS</a>
+                  <a class="nav-link active" id="link" href="./transaction.php">TRANSACTIONS</a>
+                  <a class="nav-link active" id="link" href="#about">ABOUT US</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+          
+          <section class="main" style="margin-top: 6mm;">
+
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 text-center" >
+                  <img src="./Images/bankimg.jpg" alt="bank" id="image">
+                </div>
+    
+                <div class="col-lg-6 col-md-12 col-sm-12 text-center" id="info">
+                  <h1>PULSE BANK</h1>
+                  <p id="p">The Nation banks on us; Pure Banking Nothing Else; <br> With you all the way</p>
+                  <br><br>
+                  <button onclick="location.href = './customers.php';" type="button" class="btn btn-primary" style="margin: 6px; height: 15mm; font-size: larger;"> <b>View all Customers</b> </button>
+                  <button onclick="location.href = './transaction.php';" type="button" class="btn btn-primary" style="margin: 6px; height: 15mm;font-size: larger;"><b>Transaction History</b> </button>
+                </div>
+              </div>
+            </div>
+
+          </section>
+          <br><br>
+          <section id="about">
+            <h1 style="text-align: center;">About us</h1><br><br>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12" >
+                  <img src="./Images/aboutimg.jpg" alt="piggy" id="piggy">
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+                  <p style="font-size: 25px; padding-top: 15mm;">We provide easy transactions. Our Mission is to build long lasting relationships by delivering extraordinary financial solutions
+                    through unrivaled customer service one customer at a time. </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <br><br>
+          <div class="footer" style="color: white; background-color: #1a75ff;text-align: center; bottom: 0mm; left: 0mm; width: 100%;">
+            © 2021 Copyright: Shantanu Chavan
+          </div>
+    
+          
+    </body>
+</html>

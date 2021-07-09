@@ -1,0 +1,19 @@
+#header{
+    background-color: #1a75ff;
+}
+#name{
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    padding-left: 20mm;
+}
+#link{
+    color: white;
+}
+.head{
+    text-align: center;
+    margin: 10mm;
+}
+.table{
+    padding: 0mm 10mm 5mm 10mm;
+}
